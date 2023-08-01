@@ -1,0 +1,162 @@
+<<<<<<< HEAD
+.fa-solid {
+   color: #fff;
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+   height: 50px;
+   background-color: #080808;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.big-screen {
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   justify-content: space-between;
+   display: none;
+}
+
+.small-screen {
+   width: 100%;
+   margin: 0px 20px;
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.big-screen>img {
+   width: 50px;
+}
+
+.small-screen>img {
+   width: 30px;
+}
+
+.nav-links {
+   display: flex;
+   align-items: center;
+}
+
+.nav-links a {
+   text-decoration: none;
+   color: #fff;
+   margin-right: 25px;
+}
+
+.nav-links a:hover {
+   color: #0a98eb;
+   scale: 1.1;
+}
+
+.big-screen button {
+   padding: 0px 40px;
+   margin: 10px 0px;
+   border: 0px;
+   border-radius: 5px;
+   background-color: #0545f5;
+   color: #fff;
+   font-weight: bold;
+}
+
+.big-screen button:hover {
+   scale: 1.1;
+   cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+   .big-screen {
+      display: flex;
+   }
+
+   .small-screen {
+      display: none;
+   }
+=======
+.fa-solid {
+   color: #fff;
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+   height: 50px;
+   background-color: #080808;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.big-screen {
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   justify-content: space-between;
+   display: none;
+}
+
+.small-screen {
+   width: 100%;
+   margin: 0px 20px;
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.big-screen>img {
+   width: 50px;
+}
+
+.small-screen>img {
+   width: 30px;
+}
+
+.nav-links {
+   display: flex;
+   align-items: center;
+}
+
+.nav-links a {
+   text-decoration: none;
+   color: #fff;
+   margin-right: 25px;
+}
+
+.nav-links a:hover {
+   color: #0a98eb;
+   scale: 1.1;
+}
+
+.big-screen button {
+   padding: 0px 40px;
+   margin: 10px 0px;
+   border: 0px;
+   border-radius: 5px;
+   background-color: #0545f5;
+   color: #fff;
+   font-weight: bold;
+}
+
+.big-screen button:hover {
+   scale: 1.1;
+   cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+   .big-screen {
+      display: flex;
+   }
+
+   .small-screen {
+      display: none;
+   }
+>>>>>>> 146fa49860b511dfb1e20d264b421417841c8918
+}

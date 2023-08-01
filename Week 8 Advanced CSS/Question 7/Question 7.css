@@ -1,0 +1,90 @@
+<<<<<<< HEAD
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+
+    background: linear-gradient(to right, rgb(86, 86, 248), rgb(127, 3, 209));
+    height: 60px;
+    width: 290px;
+    border: none;
+    border-radius: 10px;
+    animation: bounce 1s infinite alternate;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1)
+    }
+=======
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+
+    background: linear-gradient(to right, rgb(86, 86, 248), rgb(127, 3, 209));
+    height: 60px;
+    width: 290px;
+    border: none;
+    border-radius: 10px;
+    animation: bounce 1s infinite alternate;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1)
+    }
+>>>>>>> 146fa49860b511dfb1e20d264b421417841c8918
+}
